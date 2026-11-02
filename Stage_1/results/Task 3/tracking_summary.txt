@@ -1,0 +1,32 @@
+
+LUCAS-KANADE SPARSE OPTICAL FLOW - TASK 3
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+
+Image dimensions: 1024 x 436
+
+Feature detection:
+    Method: Shi-Tomasi
+    Maximum corners: 300
+
+Lucas-Kanade parameters:
+    Window size: 21 x 21
+    Pyramid levels: 3
+
+Tracking:
+    Detected points: 300
+    Successfully tracked: 300
+    Tracking failures: 0
+
+Motion statistics:
+    Mean u: -2.025869 pixels
+    Mean v: 0.230752 pixels
+    Mean magnitude: 2.112409 pixels
+    Maximum magnitude: 8.001574 pixels
+    Minimum magnitude: 1.209266 pixels
+
+Note:
+    This is sparse optical flow.
+    Motion is estimated only at selected feature points.
