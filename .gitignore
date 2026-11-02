@@ -1,0 +1,69 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# IDE and Editor
+# ==============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Python Packages
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Dataset
+# ==============================
+MPI-Sintel-training_images/
+MPI-Sintel-training_final/
+MPI-Sintel-training_albedo/
+MPI-Sintel-training_clean/
+*.flo
+
+# ==============================
+# Model Checkpoints
+# ==============================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ==============================
+# Results
+# ==============================
+results/
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.*
