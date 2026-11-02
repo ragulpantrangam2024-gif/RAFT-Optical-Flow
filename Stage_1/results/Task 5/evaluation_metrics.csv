@@ -1,0 +1,12 @@
+Metric,Value
+Valid pixels,446403
+Excluded pixels,61
+Mean EPE (pixels),0.8688182234764099
+Median EPE (pixels),0.11274145543575287
+Maximum EPE (pixels),10.716227531433105
+Minimum EPE (pixels),3.475683115539141e-05
+EPE standard deviation,1.6057077646255493
+Pixels with EPE < 1 px (%),78.89575114862579
+Pixels with EPE < 3 px (%),88.39994354876647
+Pixels with EPE < 5 px (%),93.76415481078756
+Mean Angular Error (degrees),6.160738945007324

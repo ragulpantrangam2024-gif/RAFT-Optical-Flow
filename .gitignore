@@ -47,6 +47,8 @@ MPI-Sintel-training_images/
 MPI-Sintel-training_final/
 MPI-Sintel-training_albedo/
 MPI-Sintel-training_clean/
+training/
+flow_code/
 *.flo
 
 # ==============================

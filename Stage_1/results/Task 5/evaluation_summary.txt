@@ -1,0 +1,43 @@
+
+STAGE 1 - TASK 5
+OPTICAL FLOW EVALUATION
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frame pair: frame_0001 -> frame_0002
+
+Estimated algorithm: Farneback Dense Optical Flow
+
+Ground truth:
+    D:\rwu\rwu jobs\Computer_Vision_Projects\RAFT_Optical_Flow\training\flow\alley_1\frame_0001.flo
+
+Estimated flow:
+    D:\rwu\rwu jobs\Computer_Vision_Projects\RAFT_Optical_Flow\Stage_1\results\Task 4\farneback_flow.npy
+
+Image dimensions:
+    1024 x 436
+
+Pixel statistics:
+    Total pixels: 446464
+    Valid pixels: 446403
+    Excluded pixels: 61
+    Valid percentage: 99.9863%
+
+Endpoint Error:
+    Mean EPE: 0.868818 pixels
+    Median EPE: 0.112741 pixels
+    Maximum EPE: 10.716228 pixels
+    Minimum EPE: 0.000035 pixels
+    Standard deviation: 1.605708 pixels
+
+Pixel accuracy:
+    EPE < 1 pixel: 78.8958%
+    EPE < 3 pixels: 88.3999%
+    EPE < 5 pixels: 93.7642%
+
+Angular error:
+    Mean Angular Error: 6.160739 degrees
+
+Evaluation:
+    Invalid ground-truth pixels were excluded.
+    Angular error excludes near-zero flow vectors.
