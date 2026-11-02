@@ -1,0 +1,42 @@
+
+DENSE OPTICAL FLOW - TASK 4
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+
+Image dimensions: 1024 x 436
+Total pixels: 446464
+
+Algorithm: Farneback Dense Optical Flow
+
+Parameters:
+    Pyramid scale: 0.5
+    Pyramid levels: 3
+    Window size: 15
+    Iterations: 3
+    Polynomial neighbourhood: 5
+    Polynomial sigma: 1.2
+
+Horizontal flow (u):
+    Minimum: -8.583183
+    Maximum: 0.455682
+    Mean: -2.315974
+    Standard deviation: 1.963418
+
+Vertical flow (v):
+    Minimum: -7.512425
+    Maximum: 7.924368
+    Mean: 0.160855
+    Standard deviation: 0.623277
+
+Motion magnitude:
+    Minimum: 0.000051
+    Maximum: 8.594700
+    Mean: 2.381701
+    Median: 1.490083
+
+Note:
+    This is dense optical flow.
+    Motion is estimated for every pixel.
+    The color visualization uses normalized magnitude.
