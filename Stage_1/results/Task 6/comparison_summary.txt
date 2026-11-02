@@ -1,0 +1,51 @@
+
+STAGE 1 - TASK 6
+LUCAS-KANADE VS FARNEBACK
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frame pair: frame_0001 -> frame_0002
+
+Image dimensions: 1024 x 436
+
+FAIR COMPARISON
+Both algorithms are evaluated at the same
+Lucas-Kanade feature locations.
+
+Valid common evaluation points: 300
+
+LUCAS-KANADE:
+    Mean EPE: 0.403739
+    Median EPE: 0.036211
+    Maximum EPE: 6.735866
+    EPE < 1 px: 91.3333%
+    EPE < 3 px: 93.6667%
+    EPE < 5 px: 98.0000%
+    Mean Angular Error: 2.753454 degrees
+
+FARNEBACK AT SAME FEATURE LOCATIONS:
+    Mean EPE: 0.400230
+    Median EPE: 0.034445
+    Maximum EPE: 6.814432
+    EPE < 1 px: 90.6667%
+    EPE < 3 px: 94.0000%
+    EPE < 5 px: 98.0000%
+    Mean Angular Error: 2.810405 degrees
+
+FARNEBACK FULL-IMAGE EVALUATION:
+    Valid pixels: 446403
+    Mean EPE: 0.868818
+    Median EPE: 0.112741
+    EPE < 1 px: 78.8958%
+    EPE < 3 px: 88.3999%
+    EPE < 5 px: 93.7642%
+
+Methodological note:
+    Farneback was bilinearly sampled at the original
+    Lucas-Kanade feature coordinates.
+    Ground truth was also bilinearly sampled there.
+    Invalid ground-truth locations were excluded.
+    Full-image Farneback metrics use all valid pixels.
+
+The two full-image and feature-point evaluations
+represent different evaluation populations.
