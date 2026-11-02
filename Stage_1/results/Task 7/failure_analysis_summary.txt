@@ -1,0 +1,44 @@
+STAGE 1 - TASK 7
+OPTICAL FLOW LIMITATIONS AND FAILURE ANALYSIS
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frame pair: frame_0001 -> frame_0002
+Algorithm: Farneback Dense Optical Flow
+
+Image dimensions: 1024 x 436
+Total pixels: 446464
+Valid pixels: 446403
+
+GENERAL ERROR STATISTICS
+Mean EPE: 0.868818
+Median EPE: 0.112741
+Standard deviation: 1.605708
+95th percentile EPE: 5.198452
+High-error pixel count: 22321
+
+ERROR BY GROUND-TRUTH MOTION MAGNITUDE
+0-1 px: Pixels=182, Mean EPE=0.959904, Median EPE=0.907660
+1-3 px: Pixels=311878, Mean EPE=0.378900, Median EPE=0.057326
+3-5 px: Pixels=24830, Mean EPE=1.468000, Median EPE=0.629391
+5-10 px: Pixels=109513, Mean EPE=2.128035, Median EPE=0.925727
+
+ERROR BY IMAGE TEXTURE
+Low texture: Pixels=111595, Mean EPE=1.741279, Median EPE=0.521766
+Medium-low texture: Pixels=111373, Mean EPE=0.863300, Median EPE=0.147524
+Medium-high texture: Pixels=111830, Mean EPE=0.482629, Median EPE=0.066826
+High texture: Pixels=111605, Mean EPE=0.388910, Median EPE=0.052035
+
+OCCLUSION MASK ANALYSIS
+Raw mask values: [0, 255]
+The raw mask values are reported without assuming
+their semantic convention.
+Mask value 0: Pixels=437453, Mean EPE=0.836251, Median EPE=0.106818
+Mask value 255: Pixels=8950, Mean EPE=2.460629, Median EPE=1.572995
+
+NOTES
+Invalid ground-truth pixels were excluded.
+Texture groups are defined by quartiles of Sobel gradient magnitude.
+Motion groups are defined by ground-truth motion magnitude.
+High-error regions are defined by the 95th percentile of valid EPE.
+This experiment analyses one Sintel frame pair only.
