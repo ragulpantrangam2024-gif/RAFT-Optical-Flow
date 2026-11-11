@@ -1,0 +1,49 @@
+STAGE 2 - TASK 4
+DIS DENSE OPTICAL FLOW
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+Image dimensions: 1024 x 436
+
+Evaluation uses valid Sintel pixels.
+
+=============================================
+DIS preset: ULTRAFAST
+valid_pixels: 446403
+mean_epe: 0.4600779116153717
+median_epe: 0.19068065285682678
+std_epe: 0.7497929334640503
+max_epe: 6.322968006134033
+epe_below_1: 88.33363575065579
+epe_below_3: 97.89114320468276
+epe_below_5: 99.64874788027859
+mean_angular_error: 5.299600124359131
+runtime_seconds: 0.07717470009811223
+
+=============================================
+DIS preset: FAST
+valid_pixels: 446403
+mean_epe: 0.46085020899772644
+median_epe: 0.1904454380273819
+std_epe: 0.7513530850410461
+max_epe: 6.388369560241699
+epe_below_1: 88.34035613559945
+epe_below_3: 97.87859848612128
+epe_below_5: 99.64740380328986
+mean_angular_error: 5.328721523284912
+runtime_seconds: 0.023681299993768334
+
+=============================================
+DIS preset: MEDIUM
+valid_pixels: 446403
+mean_epe: 0.2923525869846344
+median_epe: 0.07661698758602142
+std_epe: 0.6630502343177795
+max_epe: 6.750183582305908
+epe_below_1: 93.03857724970487
+epe_below_3: 98.34947345783966
+epe_below_5: 99.67092515059262
+mean_angular_error: 3.4408435821533203
+runtime_seconds: 0.11846400005742908
+
