@@ -1,0 +1,3 @@
+maxLevel,detected_points,tracked_points,failed_points,valid_evaluated_points,mean_epe,median_epe,mean_angular_error_degrees,epe_below_1px_percent,epe_below_3px_percent,epe_below_5px_percent
+0,300,300,0,300,0.5753603577613831,0.03678838163614273,5.490011215209961,89.0,91.33333333333333,96.0
+3,300,300,0,300,0.4037390351295471,0.03621092438697815,3.726173162460327,91.33333333333333,93.66666666666667,98.0

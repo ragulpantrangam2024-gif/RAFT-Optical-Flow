@@ -1,0 +1,36 @@
+STAGE 2 - TASK 2
+PYRAMIDAL LUCAS-KANADE OPTICAL FLOW
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+Image dimensions: 1024 x 436
+
+Detected feature points: 300
+Window size: (21, 21)
+
+---------------------------------------------
+Lucas-Kanade maxLevel: 0
+Tracked points: 300
+Failed points: 0
+Valid evaluated points: 300
+Mean EPE: 0.575360 px
+Median EPE: 0.036788 px
+Mean angular error: 5.490011 degrees
+EPE below 1 px: 89.00%
+EPE below 3 px: 91.33%
+EPE below 5 px: 96.00%
+
+---------------------------------------------
+Lucas-Kanade maxLevel: 3
+Tracked points: 300
+Failed points: 0
+Valid evaluated points: 300
+Mean EPE: 0.403739 px
+Median EPE: 0.036211 px
+Mean angular error: 3.726173 degrees
+EPE below 1 px: 91.33%
+EPE below 3 px: 93.67%
+EPE below 5 px: 98.00%
+
+Note: Evaluation is performed at detected feature locations, not over every image pixel.
