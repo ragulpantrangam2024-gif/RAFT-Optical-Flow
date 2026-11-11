@@ -1,0 +1,32 @@
+STAGE 2 - TASK 5
+CLASSICAL OPTICAL FLOW COMPARISON
+
+Dataset: MPI Sintel, alley_1
+Frames: frame_0001 -> frame_0002
+Resolution: 1024 x 436
+Valid pixels: 446403
+Common feature points: 300
+Timed runs: 5
+
+DENSE ALGORITHMS
+Farneback: EPE=0.868818 px, angular=10.212026 deg, runtime=0.219349 s
+Horn-Schunck: EPE=2.713666 px, angular=58.295957 deg, runtime=1.605774 s
+TV-L1: EPE=0.371434 px, angular=4.237146 deg, runtime=4.806486 s
+DIS ULTRAFAST: EPE=0.460078 px, angular=5.299601 deg, runtime=0.018223 s
+DIS FAST: EPE=0.460850 px, angular=5.328722 deg, runtime=0.018829 s
+DIS MEDIUM: EPE=0.292353 px, angular=3.440848 deg, runtime=0.075747 s
+
+COMMON FEATURE-POINT COMPARISON
+Farneback: EPE=0.400230 px
+Horn-Schunck: EPE=1.517079 px
+TV-L1: EPE=0.305789 px
+DIS ULTRAFAST: EPE=0.514237 px
+DIS FAST: EPE=0.514755 px
+DIS MEDIUM: EPE=0.392505 px
+LK Single-Level: EPE=0.575360 px
+LK Pyramidal: EPE=0.403739 px
+
+BEST DENSE ACCURACY: DIS MEDIUM
+FASTEST DENSE ALGORITHM: DIS ULTRAFAST
+
+Limitations: One Sintel frame pair. Runtime includes algorithm initialization for DIS and TV-L1. Saved Horn-Schunck and TV-L1 flows are used for accuracy evaluation. This is not an official Sintel benchmark.
