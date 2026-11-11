@@ -1,0 +1,44 @@
+
+STAGE 2 - TASK 1
+HORN-SCHUNCK DENSE OPTICAL FLOW
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+
+Image dimensions: 1024 x 436
+
+Algorithm: Horn-Schunck
+Implementation: Custom NumPy and OpenCV implementation
+
+Parameters:
+    Alpha: 1.0
+    Iterations: 100
+
+Horizontal flow:
+    Minimum: -1.486237
+    Maximum: 0.332161
+    Mean: -0.085287
+    Standard deviation: 0.147282
+
+Vertical flow:
+    Minimum: -1.313319
+    Maximum: 0.964742
+    Mean: 0.033327
+    Standard deviation: 0.095927
+
+Motion magnitude:
+    Minimum: 0.000002
+    Maximum: 1.668258
+    Mean: 0.112404
+    Median: 0.044232
+
+Smoothness parameter:
+    Alpha = 1.0
+
+Iterations:
+    100
+
+Note:
+    Horn-Schunck estimates dense optical flow using
+    brightness constancy and global smoothness regularization.
