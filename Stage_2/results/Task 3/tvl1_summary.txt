@@ -1,0 +1,32 @@
+STAGE 2 - TASK 3
+TV-L1 DENSE OPTICAL FLOW
+
+Dataset: MPI Sintel
+Sequence: alley_1
+Frames: frame_0001.png -> frame_0002.png
+Image dimensions: 1024 x 436
+
+TV-L1 parameters:
+    tau: 0.25
+    lambda: 0.15
+    theta: 0.3
+    scales_number: 5
+    warps_number: 5
+    epsilon: 0.01
+    inner_iterations: 30
+    outer_iterations: 10
+    scale_step: 0.8
+    gamma: 0.0
+    median_filtering: 5
+
+Evaluation metrics:
+    valid_pixels: 446403
+    mean_epe: 0.3714340031147003
+    median_epe: 0.05229690670967102
+    std_epe: 1.2136178016662598
+    min_epe: 2.8467209631344303e-05
+    max_epe: 12.818270683288574
+    epe_below_1: 92.9612928228529
+    epe_below_3: 96.27287451025195
+    epe_below_5: 97.94154609176013
+    mean_angular_error: 4.237140655517578
