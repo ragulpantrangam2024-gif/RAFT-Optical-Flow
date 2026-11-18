@@ -1,0 +1,175 @@
+STAGE 3 - TASK 5: TEXTURE AND OCCLUSION ANALYSIS
+=================================================================
+
+Dataset: KITTI 2015 training
+Sample: 000000_10.png -> 000000_11.png
+Image dimensions: 1242 x 375
+Valid pixels: 88975
+Occluded pixels: 13522
+Non-occluded pixels: 75453
+
+Texture thresholds:
+Low/Medium: 0.04960435
+Medium/High: 0.16083230
+
+Texture pixel counts:
+Low Texture: 29833
+Medium Texture: 29484
+High Texture: 29658
+
+Algorithm runtimes:
+Farneback: 0.153974 seconds
+Horn-Schunck: 1.392570 seconds
+TV-L1: 37.646484 seconds
+DIS Medium: 0.072956 seconds
+
+Detailed evaluation results:
+=================================================================
+
+Farneback - Texture - Low Texture
+Valid pixels: 29833
+Mean EPE: 51.566814
+Median EPE: 32.517971
+Fl-all: 82.314886%
+EPE below 3px: 17.685114%
+
+Farneback - Texture - Medium Texture
+Valid pixels: 29484
+Mean EPE: 49.669796
+Median EPE: 34.259693
+Fl-all: 81.610365%
+EPE below 3px: 18.389635%
+
+Farneback - Texture - High Texture
+Valid pixels: 29658
+Mean EPE: 48.951370
+Median EPE: 11.930191
+Fl-all: 58.395711%
+EPE below 3px: 41.604289%
+
+Horn-Schunck - Texture - Low Texture
+Valid pixels: 29833
+Mean EPE: 56.983376
+Median EPE: 41.563896
+Fl-all: 97.646901%
+EPE below 3px: 2.353099%
+
+Horn-Schunck - Texture - Medium Texture
+Valid pixels: 29484
+Mean EPE: 54.237782
+Median EPE: 41.316139
+Fl-all: 97.039072%
+EPE below 3px: 2.960928%
+
+Horn-Schunck - Texture - High Texture
+Valid pixels: 29658
+Mean EPE: 56.014889
+Median EPE: 36.535866
+Fl-all: 94.972689%
+EPE below 3px: 5.027311%
+
+TV-L1 - Texture - Low Texture
+Valid pixels: 29833
+Mean EPE: 53.695290
+Median EPE: 36.011307
+Fl-all: 92.920591%
+EPE below 3px: 7.079409%
+
+TV-L1 - Texture - Medium Texture
+Valid pixels: 29484
+Mean EPE: 51.597366
+Median EPE: 37.694035
+Fl-all: 91.062949%
+EPE below 3px: 8.937051%
+
+TV-L1 - Texture - High Texture
+Valid pixels: 29658
+Mean EPE: 53.437073
+Median EPE: 30.527023
+Fl-all: 82.669094%
+EPE below 3px: 17.330906%
+
+DIS Medium - Texture - Low Texture
+Valid pixels: 29833
+Mean EPE: 44.121048
+Median EPE: 13.238496
+Fl-all: 65.806322%
+EPE below 3px: 34.156806%
+
+DIS Medium - Texture - Medium Texture
+Valid pixels: 29484
+Mean EPE: 41.066662
+Median EPE: 15.441288
+Fl-all: 66.859992%
+EPE below 3px: 33.106091%
+
+DIS Medium - Texture - High Texture
+Valid pixels: 29658
+Mean EPE: 44.701111
+Median EPE: 3.864697
+Fl-all: 51.557758%
+EPE below 3px: 48.361319%
+
+Farneback - Occlusion - Non-Occluded
+Valid pixels: 75453
+Mean EPE: 46.028725
+Median EPE: 22.483799
+Fl-all: 69.468411%
+EPE below 3px: 30.531589%
+
+Farneback - Occlusion - Occluded
+Valid pixels: 13522
+Mean EPE: 72.596626
+Median EPE: 66.932602
+Fl-all: 100.000000%
+EPE below 3px: 0.000000%
+
+Horn-Schunck - Occlusion - Non-Occluded
+Valid pixels: 75453
+Mean EPE: 50.794991
+Median EPE: 33.835529
+Fl-all: 95.936543%
+EPE below 3px: 4.063457%
+
+Horn-Schunck - Occlusion - Occluded
+Valid pixels: 13522
+Mean EPE: 83.403862
+Median EPE: 77.078659
+Fl-all: 100.000000%
+EPE below 3px: 0.000000%
+
+TV-L1 - Occlusion - Non-Occluded
+Valid pixels: 75453
+Mean EPE: 47.509434
+Median EPE: 27.744974
+Fl-all: 86.896479%
+EPE below 3px: 13.103521%
+
+TV-L1 - Occlusion - Occluded
+Valid pixels: 13522
+Mean EPE: 83.071724
+Median EPE: 77.534180
+Fl-all: 100.000000%
+EPE below 3px: 0.000000%
+
+DIS Medium - Occlusion - Non-Occluded
+Valid pixels: 75453
+Mean EPE: 38.341480
+Median EPE: 5.469885
+Fl-all: 54.897751%
+EPE below 3px: 45.092972%
+
+DIS Medium - Occlusion - Occluded
+Valid pixels: 13522
+Mean EPE: 70.983459
+Median EPE: 56.721855
+Fl-all: 97.722230%
+EPE below 3px: 1.996746%
+
+Important notes:
+- Texture is classified using Sobel gradient magnitude from the first image.
+- Texture categories use tertiles of valid-pixel gradient magnitudes.
+- Occluded pixels are valid in flow_occ but not in flow_noc.
+- Non-occluded pixels are valid in both flow_occ and flow_noc.
+- Invalid or unlabeled pixels are excluded from evaluation.
+- Results represent one KITTI training frame pair, not the complete benchmark.
