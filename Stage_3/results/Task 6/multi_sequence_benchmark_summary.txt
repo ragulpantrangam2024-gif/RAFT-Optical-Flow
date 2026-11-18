@@ -1,0 +1,57 @@
+STAGE 3 - TASK 6: MULTI-SEQUENCE KITTI BENCHMARK
+=================================================================
+
+Number of evaluated pairs: 10
+Algorithms: Farneback, Horn-Schunck, TV-L1, DIS Medium
+
+Evaluated KITTI pairs:
+- 000000
+- 000020
+- 000040
+- 000060
+- 000080
+- 000100
+- 000120
+- 000140
+- 000160
+- 000180
+
+AGGREGATED RESULTS
+=================================================================
+
+Algorithm: DIS Medium
+Evaluated pairs: 10
+Average Mean EPE: 21.633361 pixels
+Standard Deviation of Mean EPE: 12.555712
+Average Fl-all: 43.936175%
+Average Runtime: 0.130818 seconds
+
+Algorithm: Farneback
+Evaluated pairs: 10
+Average Mean EPE: 34.373885 pixels
+Standard Deviation of Mean EPE: 16.639803
+Average Fl-all: 64.940592%
+Average Runtime: 0.164567 seconds
+
+Algorithm: Horn-Schunck
+Evaluated pairs: 10
+Average Mean EPE: 46.098839 pixels
+Standard Deviation of Mean EPE: 14.314115
+Average Fl-all: 96.956395%
+Average Runtime: 1.731439 seconds
+
+Algorithm: TV-L1
+Evaluated pairs: 10
+Average Mean EPE: 41.323485 pixels
+Standard Deviation of Mean EPE: 16.353218
+Average Fl-all: 81.971807%
+Average Runtime: 35.540984 seconds
+
+BEST RESULTS
+=================================================================
+Lowest average EPE: DIS Medium
+Lowest average Fl-all: DIS Medium
+Fastest average runtime: DIS Medium
+
+Note: Results are averages over the selected KITTI training pairs, not the complete KITTI benchmark.
+Runtime is measured once per algorithm per pair and includes algorithm initialization where applicable.
