@@ -1,0 +1,98 @@
+STAGE 3 - TASK 3: PARAMETER SENSITIVITY ANALYSIS
+=================================================================
+
+Dataset: KITTI 2015 Scene Flow
+Split: Training
+Sequence: 000000
+Frame pair: 000000_10 -> 000000_11
+
+Experiments: Farneback, Horn-Schunck, TV-L1 and DIS
+Method: One parameter varied at a time
+
+
+Farneback
+---------------------------------------------
+winsize = 9
+Mean EPE: 50.619793
+Fl-all: 74.903063%
+Runtime: 0.312876 seconds
+
+winsize = 15
+Mean EPE: 50.066391
+Fl-all: 74.108457%
+Runtime: 0.363517 seconds
+
+winsize = 21
+Mean EPE: 50.468403
+Fl-all: 74.764822%
+Runtime: 0.274312 seconds
+
+Best configuration by Mean EPE: winsize = 15
+Best Mean EPE: 50.066391
+Corresponding Fl-all: 74.108457%
+
+
+Horn_Schunck
+---------------------------------------------
+alpha = 0.5
+Mean EPE: 55.621838
+Fl-all: 95.812307%
+Runtime: 2.378768 seconds
+
+alpha = 1.0
+Mean EPE: 55.735405
+Fl-all: 96.366395%
+Runtime: 2.489003 seconds
+
+alpha = 2.0
+Mean EPE: 55.788277
+Fl-all: 96.893509%
+Runtime: 1.460007 seconds
+
+Best configuration by Mean EPE: alpha = 0.5
+Best Mean EPE: 55.621838
+Corresponding Fl-all: 95.812307%
+
+
+TVL1
+---------------------------------------------
+lambda = 0.1
+Mean EPE: 52.081501
+Fl-all: 87.436920%
+Runtime: 38.118134 seconds
+
+lambda = 0.15
+Mean EPE: 52.914021
+Fl-all: 88.887890%
+Runtime: 39.759522 seconds
+
+lambda = 0.2
+Mean EPE: 53.856846
+Fl-all: 90.226468%
+Runtime: 42.360167 seconds
+
+Best configuration by Mean EPE: lambda = 0.1
+Best Mean EPE: 52.081501
+Corresponding Fl-all: 87.436920%
+
+
+DIS
+---------------------------------------------
+preset = ULTRAFAST
+Mean EPE: 44.790398
+Fl-all: 69.965721%
+Runtime: 0.021242 seconds
+
+preset = FAST
+Mean EPE: 47.351868
+Fl-all: 68.664232%
+Runtime: 0.017790 seconds
+
+preset = MEDIUM
+Mean EPE: 43.302258
+Fl-all: 61.406013%
+Runtime: 0.072794 seconds
+
+Best configuration by Mean EPE: preset = MEDIUM
+Best Mean EPE: 43.302258
+Corresponding Fl-all: 61.406013%
