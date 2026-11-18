@@ -1,0 +1,116 @@
+STAGE 3 - TASK 4: MOTION-BASED ERROR ANALYSIS
+=================================================================
+
+Dataset: KITTI 2015 training
+Sample: 000000_10.png -> 000000_11.png
+Total valid pixels: 88975
+Mean ground-truth motion magnitude: 55.810936 px
+
+Algorithm runtimes:
+Farneback: 0.341736 seconds
+Horn-Schunck: 2.725520 seconds
+TV-L1: 42.317464 seconds
+DIS Medium: 0.075249 seconds
+
+Motion category results:
+=================================================================
+
+Farneback - Small (0-5 px)
+Valid Pixels: 6166
+Mean EPE (px): 0.7004833221435547
+Median EPE (px): 0.44097432494163513
+Std EPE (px): 0.7994601130485535
+Fl-all (%): 1.9461563412260785
+EPE Below 3px (%): 98.05384365877391
+
+Farneback - Medium (5-20 px)
+Valid Pixels: 19603
+Mean EPE (px): 5.81954288482666
+Median EPE (px): 1.9508827924728394
+Std EPE (px): 7.468475818634033
+Fl-all (%): 42.22823037290211
+EPE Below 3px (%): 57.77176962709789
+
+Farneback - Large (>=20 px)
+Valid Pixels: 63206
+Mean EPE (px): 68.60514831542969
+Median EPE (px): 48.33403396606445
+Std EPE (px): 58.55714797973633
+Fl-all (%): 91.03566117140778
+EPE Below 3px (%): 8.964338828592222
+
+Horn-Schunck - Small (0-5 px)
+Valid Pixels: 6166
+Mean EPE (px): 2.821423053741455
+Median EPE (px): 2.8467206954956055
+Std EPE (px): 1.1298823356628418
+Fl-all (%): 44.421018488485245
+EPE Below 3px (%): 55.578981511514755
+
+Horn-Schunck - Medium (5-20 px)
+Valid Pixels: 19603
+Mean EPE (px): 11.512585639953613
+Median EPE (px): 11.209009170532227
+Std EPE (px): 4.403348922729492
+Fl-all (%): 100.0
+EPE Below 3px (%): 0.0
+
+Horn-Schunck - Large (>=20 px)
+Valid Pixels: 63206
+Mean EPE (px): 74.52848052978516
+Median EPE (px): 60.7800407409668
+Std EPE (px): 45.69656753540039
+Fl-all (%): 100.0
+EPE Below 3px (%): 0.0
+
+TV-L1 - Small (0-5 px)
+Valid Pixels: 6166
+Mean EPE (px): 1.2377805709838867
+Median EPE (px): 0.6903039216995239
+Std EPE (px): 1.290056824684143
+Fl-all (%): 13.379824845929289
+EPE Below 3px (%): 86.62017515407071
+
+TV-L1 - Medium (5-20 px)
+Valid Pixels: 19603
+Mean EPE (px): 7.63493013381958
+Median EPE (px): 7.402883529663086
+Std EPE (px): 5.604732036590576
+Fl-all (%): 70.68305871550274
+EPE Below 3px (%): 29.316941284497272
+
+TV-L1 - Large (>=20 px)
+Valid Pixels: 63206
+Mean EPE (px): 70.82637786865234
+Median EPE (px): 56.61121368408203
+Std EPE (px): 48.852317810058594
+Fl-all (%): 99.85760845489352
+EPE Below 3px (%): 0.14239154510647722
+
+DIS Medium - Small (0-5 px)
+Valid Pixels: 6166
+Mean EPE (px): 0.5225441455841064
+Median EPE (px): 0.38879746198654175
+Std EPE (px): 0.5293915867805481
+Fl-all (%): 0.6487187804086928
+EPE Below 3px (%): 99.3512812195913
+
+DIS Medium - Medium (5-20 px)
+Valid Pixels: 19603
+Mean EPE (px): 3.0506391525268555
+Median EPE (px): 0.9272081255912781
+Std EPE (px): 4.305002212524414
+Fl-all (%): 28.35790440238739
+EPE Below 3px (%): 71.64209559761261
+
+DIS Medium - Large (>=20 px)
+Valid Pixels: 63206
+Mean EPE (px): 59.95941162109375
+Median EPE (px): 37.545318603515625
+Std EPE (px): 62.510433197021484
+Fl-all (%): 77.5828244154036
+EPE Below 3px (%): 22.34597981204316
+
+Important note:
+Results are based on one KITTI training frame pair. They are not full-dataset benchmark results.
+Motion categories are based on ground-truth flow magnitude, not predicted flow magnitude.
