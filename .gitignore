@@ -48,7 +48,9 @@ MPI-Sintel-training_final/
 MPI-Sintel-training_albedo/
 MPI-Sintel-training_clean/
 training/
+testing/
 flow_code/
+KITTI_Optical_Flow_2025/
 *.flo
 
 # ==============================

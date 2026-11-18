@@ -1,0 +1,70 @@
+STAGE 3 - TASK 2: KITTI OPTICAL FLOW EVALUATION
+=================================================================
+
+Dataset: KITTI 2015 Scene Flow
+Split: Training
+Sequence: 000000
+Frame pair: 000000_10 -> 000000_11
+Ground truth: flow_occ
+Valid pixels: 88975
+Evaluation: Mean EPE and KITTI Fl-all
+
+
+Algorithm: Farneback
+---------------------------------------------
+Valid Pixels: 88975
+Mean EPE: 50.06639099121094
+Median EPE: 29.399417877197266
+Standard Deviation: 57.380767822265625
+Minimum EPE: 0.0016711608041077852
+Maximum EPE: 223.62242126464844
+95th Percentile EPE: 184.79803466796875
+Fl-all (%): 74.10845743186289
+EPE Below 1 Pixel (%): 16.318066872717054
+EPE Below 3 Pixels (%): 25.891542568137115
+Runtime (seconds): 0.26256190000276547
+
+
+Algorithm: Horn_Schunck
+---------------------------------------------
+Valid Pixels: 88975
+Mean EPE: 55.73540496826172
+Median EPE: 40.13473892211914
+Standard Deviation: 48.59552764892578
+Minimum EPE: 0.35676804184913635
+Maximum EPE: 194.06251525878906
+95th Percentile EPE: 158.46072387695312
+Fl-all (%): 96.36639505479067
+EPE Below 1 Pixel (%): 0.4405731947176173
+EPE Below 3 Pixels (%): 3.633604945209328
+Runtime (seconds): 1.5574077000055695
+
+
+Algorithm: TVL1
+---------------------------------------------
+Valid Pixels: 88975
+Mean EPE: 52.91402053833008
+Median EPE: 35.014015197753906
+Standard Deviation: 50.759273529052734
+Minimum EPE: 0.0008992275688797235
+Maximum EPE: 197.10382080078125
+95th Percentile EPE: 164.6595458984375
+Fl-all (%): 88.88788985670132
+EPE Below 1 Pixel (%): 7.612250632200055
+EPE Below 3 Pixels (%): 11.112110143298679
+Runtime (seconds): 38.91432280000299
+
+
+Algorithm: DIS_Medium
+---------------------------------------------
+Valid Pixels: 88975
+Mean EPE: 43.3022575378418
+Median EPE: 10.911093711853027
+Standard Deviation: 58.828895568847656
+Minimum EPE: 0.0019220463000237942
+Maximum EPE: 210.34164428710938
+95th Percentile EPE: 180.234375
+Fl-all (%): 61.406012924978924
+EPE Below 1 Pixel (%): 27.84714807530205
+EPE Below 3 Pixels (%): 38.54341107052543
+Runtime (seconds): 0.07755980000365525
