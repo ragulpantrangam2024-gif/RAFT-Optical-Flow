@@ -1,0 +1,65 @@
+STAGE 3 - TASK 1: OPTICAL FLOW EVALUATION
+============================================================
+
+Ground Truth: D:\rwu\rwu jobs\Computer_Vision_Projects\RAFT_Optical_Flow\training\flow\alley_1\frame_0001.flo
+Valid Pixels: 446403
+
+
+Algorithm: Farneback
+---------------------------------------------
+Valid Pixels: 446403
+Mean EPE: 0.8688182234764099
+Median EPE: 0.11274145543575287
+Standard Deviation: 1.6057077646255493
+Minimum EPE: 3.475683115539141e-05
+Maximum EPE: 10.716227531433105
+95th Percentile EPE: 5.198451995849609
+Mean Angular Error: 10.21202278137207
+EPE Below 1 Pixel (%): 78.89575114862579
+EPE Below 3 Pixels (%): 88.39994354876647
+EPE Below 5 Pixels (%): 93.76415481078756
+
+
+Algorithm: Horn_Schunck
+---------------------------------------------
+Valid Pixels: 446403
+Mean EPE: 2.713665723800659
+Median EPE: 1.4859415292739868
+Standard Deviation: 2.1284728050231934
+Minimum EPE: 0.02555646002292633
+Maximum EPE: 8.384878158569336
+95th Percentile EPE: 7.074892044067383
+Mean Angular Error: 58.295955657958984
+EPE Below 1 Pixel (%): 4.768561143182282
+EPE Below 3 Pixels (%): 69.91642081258415
+EPE Below 5 Pixels (%): 76.02950697015926
+
+
+Algorithm: TVL1
+---------------------------------------------
+Valid Pixels: 446403
+Mean EPE: 0.3714340031147003
+Median EPE: 0.05229690670967102
+Standard Deviation: 1.2136178016662598
+Minimum EPE: 2.8467209631344303e-05
+Maximum EPE: 12.818270683288574
+95th Percentile EPE: 2.1954331398010254
+Mean Angular Error: 4.237139701843262
+EPE Below 1 Pixel (%): 92.9612928228529
+EPE Below 3 Pixels (%): 96.27287451025195
+EPE Below 5 Pixels (%): 97.94154609176013
+
+
+Algorithm: DIS_Medium
+---------------------------------------------
+Valid Pixels: 446403
+Mean EPE: 0.2923525869846344
+Median EPE: 0.07661698758602142
+Standard Deviation: 0.6630502343177795
+Minimum EPE: 3.94589951611124e-05
+Maximum EPE: 6.750183582305908
+95th Percentile EPE: 1.3410699367523193
+Mean Angular Error: 3.4408442974090576
+EPE Below 1 Pixel (%): 93.03857724970487
+EPE Below 3 Pixels (%): 98.34947345783966
+EPE Below 5 Pixels (%): 99.67092515059262
