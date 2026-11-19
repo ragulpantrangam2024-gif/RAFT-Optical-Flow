@@ -1,0 +1,63 @@
+STAGE 4 - TASK 1: CNN FUNDAMENTALS
+=================================================================
+
+INPUT IMAGE
+Image path: D:\rwu\rwu jobs\Computer_Vision_Projects\RAFT_Optical_Flow\KITTI_Optical_Flow_2025\data_scene_flow\training\image_2\000000_10.png
+Image dimensions: (375, 1242, 3)
+Tensor shape: (1, 3, 375, 1242)
+Device: cpu
+
+CNN ARCHITECTURE
+Conv1: 3 -> 16 channels
+ReLU1
+MaxPool1: 2x2
+Conv2: 16 -> 32 channels
+ReLU2
+MaxPool2: 2x2
+Conv3: 32 -> 64 channels
+ReLU3
+
+MODEL PARAMETERS
+Total parameters: 23584
+Trainable parameters: 23584
+Forward pass runtime: 0.727032 seconds
+
+FEATURE MAP DETAILS
+
+conv1
+Shape: (1, 16, 375, 1242)
+Mean: 0.053902
+Standard deviation: 0.121713
+Minimum: 0.000000
+Maximum: 0.914495
+
+pool1
+Shape: (1, 16, 187, 621)
+Mean: 0.061361
+Standard deviation: 0.130876
+Minimum: 0.000000
+Maximum: 0.914495
+
+conv2
+Shape: (1, 32, 187, 621)
+Mean: 0.032344
+Standard deviation: 0.046447
+Minimum: 0.000000
+Maximum: 0.381115
+
+pool2
+Shape: (1, 32, 93, 310)
+Mean: 0.038374
+Standard deviation: 0.050664
+Minimum: 0.000000
+Maximum: 0.381115
+
+conv3
+Shape: (1, 64, 93, 310)
+Mean: 0.015448
+Standard deviation: 0.021686
+Minimum: 0.000000
+Maximum: 0.168611
+
+IMPORTANT NOTE
+The CNN uses randomly initialized weights. The feature maps demonstrate convolution operations and are not learned optical-flow features.
