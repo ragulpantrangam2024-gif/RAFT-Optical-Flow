@@ -1,0 +1,34 @@
+STAGE 4 - TASK 4: ALL-PAIRS CORRELATION VOLUME
+=================================================================
+
+INPUT INFORMATION
+----------------------------------------
+Image dimensions: 1242 x 375
+Feature grid: 24 x 40
+Feature channels: 64
+Feature locations: 960
+CNN parameters: 72080
+Random seed: 42
+
+BASE CORRELATION VOLUME
+----------------------------------------
+Shape: (24, 40, 24, 40)
+Minimum: 0.98238403
+Maximum: 1.00000024
+Mean: 0.99784368
+Standard deviation: 0.00210627
+
+CORRELATION PYRAMID
+----------------------------------------
+Level 0: (1, 24, 40, 24, 40)
+Level 1: (1, 24, 40, 12, 20)
+Level 2: (1, 24, 40, 6, 10)
+Level 3: (1, 24, 40, 3, 5)
+
+PROCESSING TIME
+----------------------------------------
+Feature extraction: 0.6527 seconds
+Correlation computation: 0.0382 seconds
+
+IMPORTANT LIMITATION
+The CNN uses randomly initialized weights. This is an educational correlation-volume implementation, not a trained optical-flow model. The correlation pyramid demonstrates multi-scale matching information but does not produce optical flow by itself.
