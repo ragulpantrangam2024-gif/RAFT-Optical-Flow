@@ -1,0 +1,57 @@
+======================================================================
+STAGE 4 - TASK 2: CNN FEATURE EXTRACTION
+======================================================================
+Processing device: cpu
+Image 1: 000000_10.png
+Image 2: 000000_11.png
+Image dimensions: 1242 x 375
+Total CNN parameters: 72,080
+Feature extraction runtime: 1.065100 seconds
+
+FEATURE EXTRACTION DIMENSIONS
+----------------------------------------------------------------------
+conv1: (1, 16, 375, 1242)
+pool1: (1, 16, 187, 621)
+conv2: (1, 32, 187, 621)
+pool2: (1, 32, 93, 310)
+conv3: (1, 64, 93, 310)
+
+FEATURE COMPARISON STATISTICS
+----------------------------------------------------------------------
+
+Layer: conv1
+Channels: 16
+Spatial dimensions: 375 x 1242
+Mean absolute feature difference: 0.013905
+Mean cosine similarity: 0.937914
+
+Layer: pool1
+Channels: 16
+Spatial dimensions: 187 x 621
+Mean absolute feature difference: 0.014094
+Mean cosine similarity: 0.946505
+
+Layer: conv2
+Channels: 32
+Spatial dimensions: 187 x 621
+Mean absolute feature difference: 0.001805
+Mean cosine similarity: 0.993466
+
+Layer: pool2
+Channels: 32
+Spatial dimensions: 93 x 310
+Mean absolute feature difference: 0.001792
+Mean cosine similarity: 0.994324
+
+Layer: conv3
+Channels: 64
+Spatial dimensions: 93 x 310
+Mean absolute feature difference: 0.000345
+Mean cosine similarity: 0.999299
+
+IMPORTANT NOTE
+The CNN uses randomly initialized weights. The extracted representations are not trained optical-flow features.
+Both images are processed using the same CNN encoder instance.
+======================================================================
+TASK 2 COMPLETED SUCCESSFULLY
+======================================================================
