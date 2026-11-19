@@ -1,0 +1,33 @@
+STAGE 4 - TASK 5: CORRELATION LOOKUP
+=================================================================
+
+INPUT INFORMATION
+----------------------------------------
+Image dimensions: 1242 x 375
+Feature grid: 24 x 40
+Feature channels: 64
+Pyramid levels: 4
+Lookup radius: 2
+Random seed: 42
+
+LOOKUP DIMENSIONS
+----------------------------------------
+Source locations: 960
+Neighbourhood positions per level: 25
+Total lookup channels: 100
+Lookup tensor shape: (1, 24, 40, 100)
+
+LOOKUP STATISTICS
+----------------------------------------
+Minimum: 0.00000000
+Maximum: 1.00000024
+Mean: 0.71721292
+Standard deviation: 0.41857395
+
+PROCESSING TIME
+----------------------------------------
+Feature extraction: 0.7122 seconds
+Local correlation lookup: 0.0497 seconds
+
+IMPORTANT LIMITATION
+The CNN uses randomly initialized weights. The initial candidate flow is zero. This task demonstrates multi-scale local correlation lookup, not trained optical flow estimation or RAFT iterative updates.
