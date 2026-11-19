@@ -1,0 +1,20 @@
+STAGE 4 - TASK 3: FEATURE CORRELATION AND MATCHING
+=================================================================
+
+Image dimensions: 1242 x 375
+Feature grid: 24 x 40
+Feature dimension: 64
+Feature locations per image: 960
+Correlation matrix: (960, 960)
+
+CNN parameters: 72080
+Feature extraction time: 1.1346 seconds
+
+Mutual nearest-neighbour matches: 460
+Correlation minimum: 0.985700
+Correlation maximum: 1.000000
+Correlation mean: 0.997981
+Mean match similarity: 0.999977
+
+IMPORTANT LIMITATION
+The CNN uses randomly initialized weights. The matches are not verified geometric correspondences and should not be interpreted as accurate optical flow.
