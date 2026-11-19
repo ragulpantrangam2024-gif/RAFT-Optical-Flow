@@ -1,0 +1,21 @@
+STAGE 4 - TASK 6: ITERATIVE FLOW REFINEMENT
+=================================================================
+
+Image dimensions: 1242 x 375
+Feature dimensions: 24 x 40
+Pyramid levels: 4
+Lookup radius: 2
+Iterations: 5
+Feature extraction time: 2.3164 seconds
+Refinement time: 0.1770 seconds
+
+ITERATION STATISTICS
+-----------------------------------------------------------------
+Iteration 1: Mean magnitude = 0.069636, Maximum = 0.115278
+Iteration 2: Mean magnitude = 0.151004, Maximum = 0.265876
+Iteration 3: Mean magnitude = 0.237554, Maximum = 0.435541
+Iteration 4: Mean magnitude = 0.326424, Maximum = 0.617344
+Iteration 5: Mean magnitude = 0.416445, Maximum = 0.804611
+
+IMPORTANT LIMITATION
+The encoder and recurrent update block use random initialization. The flow estimates are not trained optical-flow predictions. This experiment demonstrates the iterative refinement architecture only.
