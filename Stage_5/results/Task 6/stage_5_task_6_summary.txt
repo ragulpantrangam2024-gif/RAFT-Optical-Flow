@@ -1,0 +1,24 @@
+STAGE 5 TASK 6 - QUANTITATIVE EVALUATION
+
+Sintel
+samples_evaluated: 10
+total_valid_pixels: 4462616
+mean_epe_pixel_weighted: 13.339375890474695
+median_epe_mean_of_samples: 13.496019899845123
+epe_below_1_mean_percent: 18.35723115550901
+epe_below_3_mean_percent: 52.899745907948365
+epe_below_5_mean_percent: 64.58316842582353
+fl_all_mean_percent: 47.100254092051635
+
+KITTI
+samples_evaluated: 10
+total_valid_pixels: 865619
+mean_epe_pixel_weighted: 39.79595173031064
+median_epe_mean_of_samples: 27.30493061542511
+epe_below_1_mean_percent: 1.3539273082555656
+epe_below_3_mean_percent: 13.359091705469279
+epe_below_5_mean_percent: 18.35020232390041
+fl_all_mean_percent: 86.64090829453073
+
+Note: Fl-all is computed using the KITTI outlier definition. It is included for both datasets as a common diagnostic, but it is the official KITTI metric only on KITTI data.
+This evaluation uses an evenly spaced subset of available pairs. It is not guaranteed to reproduce the held-out validation split used during training.

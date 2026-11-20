@@ -1,0 +1,9 @@
+dataset: Sintel
+samples_evaluated: 10
+total_valid_pixels: 4462616
+mean_epe_pixel_weighted: 13.339375890474695
+median_epe_mean_of_samples: 13.496019899845123
+epe_below_1_mean_percent: 18.35723115550901
+epe_below_3_mean_percent: 52.899745907948365
+epe_below_5_mean_percent: 64.58316842582353
+fl_all_mean_percent: 47.100254092051635

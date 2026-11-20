@@ -1,0 +1,9 @@
+dataset: KITTI
+samples_evaluated: 10
+total_valid_pixels: 865619
+mean_epe_pixel_weighted: 39.79595173031064
+median_epe_mean_of_samples: 27.30493061542511
+epe_below_1_mean_percent: 1.3539273082555656
+epe_below_3_mean_percent: 13.359091705469279
+epe_below_5_mean_percent: 18.35020232390041
+fl_all_mean_percent: 86.64090829453073
