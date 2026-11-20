@@ -1,0 +1,7 @@
+Dataset: KITTI
+Flow shape: (375, 1242, 2)
+Mean flow magnitude: 1.921870
+Median flow magnitude: 1.966382
+Maximum flow magnitude: 4.597136
+Mean horizontal flow: -0.640346
+Mean vertical flow: 0.435898

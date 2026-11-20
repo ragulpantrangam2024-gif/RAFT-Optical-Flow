@@ -1,0 +1,7 @@
+Dataset: Sintel
+Flow shape: (436, 1024, 2)
+Mean flow magnitude: 1.153952
+Median flow magnitude: 1.082863
+Maximum flow magnitude: 3.414392
+Mean horizontal flow: -0.056863
+Mean vertical flow: -0.207863
