@@ -1,0 +1,22 @@
+STAGE 5 - TASK 2: RAFT FORWARD PASS
+==================================================
+Device: cpu
+Input size: 400 x 120
+Original size: 1242 x 375
+Model parameters: 3,699,586
+Correlation levels: 4
+Correlation radius: 2
+Update iterations: 5
+Forward pass time: 0.3546 seconds
+Final flow shape: (375, 1242, 2)
+Mean flow magnitude: 0.410324
+Maximum flow magnitude: 0.795961
+
+Iteration statistics
+Iteration 1: mean=0.116058, max=0.218284
+Iteration 2: mean=0.176284, max=0.359064
+Iteration 3: mean=0.235360, max=0.486652
+Iteration 4: mean=0.314980, max=0.639662
+Iteration 5: mean=0.410324, max=0.795961
+
+Note: The model uses randomly initialized weights. These outputs validate the forward-pass pipeline only; they are not trained optical-flow predictions.
