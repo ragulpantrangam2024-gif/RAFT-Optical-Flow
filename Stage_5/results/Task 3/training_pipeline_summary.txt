@@ -1,0 +1,19 @@
+STAGE 5 - TASK 3: RAFT TRAINING PIPELINE
+=======================================================
+Device: cpu
+MPI-Sintel samples: 1041
+KITTI samples: 200
+Combined samples: 1241
+Model parameters: 3,699,586
+Batch size: 1
+Learning rate: 1e-05
+Update iterations: 5
+Batch source: MPI-Sintel
+Valid pixels: 47990
+Sequence loss: 4.291179
+Gradient norm: 97.186440
+Gradients generated: True
+Training step time: 1.4711 seconds
+Checkpoint: task3_pipeline_checkpoint.pth
+
+This task validates one training step only. Full model training is reserved for Stage 5 Task 4.
