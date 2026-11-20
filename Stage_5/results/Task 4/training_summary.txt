@@ -1,0 +1,17 @@
+STAGE 5 - TASK 4: RAFT MODEL TRAINING
+=======================================================
+Device: cpu
+Epochs: 3
+Batch size: 1
+Learning rate: 1e-05
+Training samples per epoch: 100
+Validation batches: 40
+Best validation loss: 9.713842
+Total training time: 364.77 seconds
+
+Epoch results
+Epoch 1: train=8.585230, validation=9.713842, learning_rate=0.00001000, time=112.82s
+Epoch 2: train=8.561881, validation=9.774454, learning_rate=0.00000800, time=104.85s
+Epoch 3: train=9.650753, validation=9.718868, learning_rate=0.00000640, time=106.15s
+
+Note: This is an educational RAFT-style model trained from random initialization. These results are not directly comparable to the original RAFT benchmark.
