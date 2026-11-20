@@ -1,0 +1,21 @@
+STAGE 5 - TASK 1: RAFT ARCHITECTURE
+============================================================
+
+Device: cpu
+Total parameters: 3,325,698
+Trainable parameters: 3,325,698
+
+Feature shape: (1, 128, 16, 24)
+Hidden shape: (1, 128, 16, 24)
+Context shape: (1, 128, 16, 24)
+Correlation level 0: (384, 1, 16, 24)
+Correlation level 1: (384, 1, 8, 12)
+Correlation level 2: (384, 1, 4, 6)
+Correlation level 3: (384, 1, 2, 3)
+Motion features: (1, 128, 16, 24)
+Updated hidden: (1, 128, 16, 24)
+Flow prediction: (1, 2, 16, 24)
+Upsampling mask: (1, 576, 16, 24)
+
+Architecture validation completed.
+Note: Components are randomly initialized and untrained.
